@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.vanana {
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    font-size: 3rem;
+    animation: vanana 3s linear forwards;
+}
+
+@keyframes vanana {
+    to {
+        transform: translateY(105vh);
+    }  
+}
